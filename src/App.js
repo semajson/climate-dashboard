@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { RainChart } from "./RainChart/RainChart.js";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <RainChart />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <p>test tect</p>
         <a
           className="App-link"
           href="https://reactjs.org"
