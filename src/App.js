@@ -1,10 +1,10 @@
-import { RainChart } from "./RainChart/RainChart.js";
+import { TempChart } from "./TempChart/TempChart.js";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <RainChart />
+      <TempChart />
       <header className="App-header">
         <p>test tect</p>
         <a
