@@ -72,6 +72,14 @@ export function TempChart() {
                 },
               },
             ],
+            yAxes: [
+              {
+                scaleLabel: {
+                  display: true,
+                  labelString: "Temp (celsius)",
+                },
+              },
+            ],
           },
         }}
       />

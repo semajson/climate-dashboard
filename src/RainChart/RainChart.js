@@ -76,6 +76,14 @@ export function RainChart() {
                 offset: true,
               },
             ],
+            yAxes: [
+              {
+                scaleLabel: {
+                  display: true,
+                  labelString: "Daily rainfall (mm)",
+                },
+              },
+            ],
           },
         }}
       />
