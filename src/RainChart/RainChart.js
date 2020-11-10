@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 export function RainChart() {
   const [LondonData, setLondonData] = useState([]);
   const [LisbonData, setLisbonData] = useState([]);
-  console.log("hello james");
 
   async function getRainForecast(lat, lon, setData) {
     fetch(
