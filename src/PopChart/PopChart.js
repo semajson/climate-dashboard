@@ -1,5 +1,5 @@
-import { Doughnut, Bar, Line } from "react-chartjs-2";
-import React, { useState, useEffect } from "react";
+import { Doughnut } from "react-chartjs-2";
+import React from "react";
 
 export function PopChart() {
   return (
@@ -18,8 +18,7 @@ export function PopChart() {
           datasets: [
             {
               backgroundColor: ["#0074D9", "#FF4136"],
-              //borderColor: "rgb(255, 99, 132)",
-
+              // Hardcode the population data for now
               data: [8.96, 2.8],
             },
           ],

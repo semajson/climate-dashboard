@@ -1,4 +1,4 @@
-import { Doughnut, Bar, Line } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import React, { useState, useEffect } from "react";
 
 export function RainChart() {
@@ -19,7 +19,6 @@ export function RainChart() {
         let newData = [];
         for (var day in data.daily) {
           // For Javascript dates, need time in miliseconds not seconds.
-          // Also, convert temp to kelvin.
           newData.push({
             x: new Date(data.daily[day].dt * 1000),
             y: data.daily[day].rain,

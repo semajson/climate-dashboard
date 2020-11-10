@@ -1,10 +1,9 @@
-import { Doughnut, Bar, Line } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 import React, { useState, useEffect } from "react";
 
 export function TempChart() {
   const [LondonData, setLondonData] = useState([]);
   const [LisbonData, setLisbonData] = useState([]);
-  console.log("hello james");
 
   async function getTempForecast(lat, lon, setData) {
     fetch(
@@ -71,7 +70,6 @@ export function TempChart() {
                 time: {
                   units: "seconds",
                 },
-                //position: "bottom",
               },
             ],
           },
